@@ -1,0 +1,15 @@
+{
+  "addition": {
+    "item": "godfall_trinkets:dragon_soul"
+  },
+  "base": {
+    "item": "godfall_trinkets:abyss_sword"
+  },
+  "result": {
+    "id": "godfall_trinkets:end_dragon_sword"
+  },
+  "template": {
+    "item": "godfall_trinkets:god_template"
+  },
+  "type": "minecraft:smithing_transform"
+}

@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "godfall_trinkets:smith_sword_t1_t2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "smith_t1_up": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "godfall_trinkets:iron_white_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "requirements": [
+    [
+      "smith_t1_up",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "godfall_trinkets:smith_sword_t1_t2"
+    ]
+  },
+  "sends_telemetry_event": false
+}

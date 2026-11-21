@@ -1,0 +1,15 @@
+{
+  "addition": {
+    "item": "godfall_trinkets:conquest_ingot"
+  },
+  "base": {
+    "item": "godfall_trinkets:god_helmet"
+  },
+  "result": {
+    "id": "godfall_trinkets:conquest_helmet"
+  },
+  "template": {
+    "item": "godfall_trinkets:god_template"
+  },
+  "type": "minecraft:smithing_transform"
+}

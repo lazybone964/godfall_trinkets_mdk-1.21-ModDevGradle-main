@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_shadow_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "godfall_trinkets:shadow_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "godfall_trinkets:anvil_sword_t3_core"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "requirements": [
+    [
+      "has_shadow_sword",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "godfall_trinkets:anvil_sword_t3_core"
+    ]
+  },
+  "sends_telemetry_event": false
+}

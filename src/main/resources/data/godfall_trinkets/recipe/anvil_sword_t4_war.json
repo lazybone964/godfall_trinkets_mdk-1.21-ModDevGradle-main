@@ -1,0 +1,15 @@
+{
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "godfall_trinkets:core_conquest_sword"
+    },
+    {
+      "item": "godfall_trinkets:conquest_ingot"
+    }
+  ],
+  "result": {
+    "id": "godfall_trinkets:core_conquest_sword"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

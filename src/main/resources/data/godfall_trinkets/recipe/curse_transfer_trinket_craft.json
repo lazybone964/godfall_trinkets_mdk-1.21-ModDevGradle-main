@@ -1,0 +1,15 @@
+{
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "godfall_trinkets:curse_transfer_trinket"
+    },
+    {
+      "item": "godfall_trinkets:godfragment"
+    }
+  ],
+  "result": {
+    "id": "godfall_trinkets:curse_transfer_trinket"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

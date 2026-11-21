@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "godfall_trinkets:smith_sword_t8_t9"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "smith_t8_up": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "godfall_trinkets:abyss_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "requirements": [
+    [
+      "smith_t8_up",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "godfall_trinkets:smith_sword_t8_t9"
+    ]
+  },
+  "sends_telemetry_event": false
+}

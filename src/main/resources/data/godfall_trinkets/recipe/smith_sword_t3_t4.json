@@ -1,0 +1,15 @@
+{
+  "addition": {
+    "item": "godfall_trinkets:god_ingot"
+  },
+  "base": {
+    "item": "godfall_trinkets:shadow_sword"
+  },
+  "result": {
+    "id": "godfall_trinkets:core_conquest_sword"
+  },
+  "template": {
+    "item": "godfall_trinkets:god_template"
+  },
+  "type": "minecraft:smithing_transform"
+}

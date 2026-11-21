@@ -1,0 +1,15 @@
+{
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "godfall_trinkets:iron_white_sword"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "id": "godfall_trinkets:iron_white_sword"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

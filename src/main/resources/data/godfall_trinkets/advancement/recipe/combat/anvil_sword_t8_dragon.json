@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_abyss_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "godfall_trinkets:abyss_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "godfall_trinkets:anvil_sword_t8_dragon"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "requirements": [
+    [
+      "has_abyss_sword",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "godfall_trinkets:anvil_sword_t8_dragon"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "godfall_trinkets:wither_skull_duplicate_soulsand"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wither_skull": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_skeleton_skull"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "requirements": [
+    [
+      "has_wither_skull",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "godfall_trinkets:wither_skull_duplicate_soulsand"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,15 @@
+{
+  "addition": {
+    "item": "godfall_trinkets:warden_heart"
+  },
+  "base": {
+    "item": "godfall_trinkets:wither_blade"
+  },
+  "result": {
+    "id": "godfall_trinkets:warden_sword"
+  },
+  "template": {
+    "item": "godfall_trinkets:god_template"
+  },
+  "type": "minecraft:smithing_transform"
+}

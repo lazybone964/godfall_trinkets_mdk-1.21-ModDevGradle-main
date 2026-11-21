@@ -1,0 +1,15 @@
+{
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "godfall_trinkets:shadow_sword"
+    },
+    {
+      "item": "godfall_trinkets:god_ingot"
+    }
+  ],
+  "result": {
+    "id": "godfall_trinkets:shadow_sword"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

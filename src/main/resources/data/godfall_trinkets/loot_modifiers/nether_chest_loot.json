@@ -1,0 +1,39 @@
+{
+  "type": "godfall_trinkets:trinket_chest_loot",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/nether_bridge"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_bridge"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_other"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_hoglin_stable"
+        }
+      ]
+    }
+  ],
+  "trinket": "godfall_trinkets:treasure_amulet",
+  "extra_items": [
+    {
+      "item": "godfall_trinkets:curse_transfer_blank",
+      "weight": 2,
+      "min": 1,
+      "max": 2
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "godfall_trinkets:anvil_sword_t7_abyss"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warden_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "godfall_trinkets:warden_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "requirements": [
+    [
+      "has_warden_sword",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "godfall_trinkets:anvil_sword_t7_abyss"
+    ]
+  },
+  "sends_telemetry_event": false
+}

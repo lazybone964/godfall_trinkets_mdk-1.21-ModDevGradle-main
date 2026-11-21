@@ -1,0 +1,15 @@
+{
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "godfall_trinkets:abyss_sword"
+    },
+    {
+      "item": "godfall_trinkets:dragon_soul"
+    }
+  ],
+  "result": {
+    "id": "godfall_trinkets:abyss_sword"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

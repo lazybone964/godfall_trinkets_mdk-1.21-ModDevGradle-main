@@ -1,0 +1,15 @@
+{
+  "addition": {
+    "item": "godfall_trinkets:god_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "result": {
+    "id": "godfall_trinkets:god_chestplate"
+  },
+  "template": {
+    "item": "godfall_trinkets:god_template"
+  },
+  "type": "minecraft:smithing_transform"
+}

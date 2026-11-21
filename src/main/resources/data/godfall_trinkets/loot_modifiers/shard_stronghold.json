@@ -1,0 +1,28 @@
+{
+  "type": "godfall_trinkets:shard_chest_loot",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_corridor"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_crossing"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_library"
+        }
+      ]
+    }
+  ],
+  "shards": [
+    {
+      "item": "godfall_trinkets:shard_fate",
+      "chance": 0.2
+    }
+  ]
+}
